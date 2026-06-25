@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel = "stylesheet" type="text/css" href="style.css" />
+    <title>Sweetment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600&family=Amatic+SC:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="script.js"></script>
+  
+  </head>
+  <body onload="displayWelcomeMessage()">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->	
+
+    <!-- Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #867070;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="logo.png" ></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home_page.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flowers_page.html">Flowers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Chocolate&Cake_page.html">Chocolate&Cake</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="Gifts_page.html">Gifts</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="mock-ups.html">Making of sweetment </a>
+        </li>
+		</li>
+		 <li class="nav-item">
+          <a class="nav-link" href="our-story.html">Our story</a>
+        </li> 
+        <a class="navbar-brand" href="home_page.html#register"><img class="reg" src="images/reg.png" alt="register logo" ></a>
+    
+	    
+         
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of navbar-->
+
+<h1 class="mb-3" id="welcomeMessage"></h1>
+
+
+<!--banner  html:-->  
+ <header class=header2>
+
+
+  </header>  
+  <br>
+<div class="Sentences">
+<h1>Cakes Made with Love</h1>
+  <p>Find the perfect cake for every celebration.</p>
+</div>
+<br>
+
+<!--Cards that include chocolate and cake shops information-->
+	<div class=container>
+	<div class="row row-cols-1 row-cols-md-3 g-4 ">
+  <div class="col">
+    <div class="card">
+      <img src="images/cs1.jpg" class="card-img-top" alt="lilou logo">
+      <div class="card-body">
+        <h5 class="card-title" id="lilou" >Lilou</h5>
+        <p class="card-text">  little coffee, a little cake, and a whole lot of love </p>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+  View Details
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lilou</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location:  Riffa,Adliya </p>
+<p>📞 Phone: +973  177715370 </p>
+<p>📸 Instagram: <a href="https://www.instagram.com/lilouartisanpatisseriebah?igsh=Y3Izb2hwcnN1aTlw">@liliouartisanpatisseriebah</a> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221670.84418275295!2d50.81324180360444!3d26.232122561961358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49af3394c0a0c5%3A0xa243296b30d3f497!2z2YPYp9mB2YrZhyDZhNmK2YTZiA!5e0!3m2!1sar!2sbh!4v1762541884379!5m2!1sar!2sbh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/cs6.jpg" class="card-img-top" alt="cake boutique logo">
+      <div class="card-body">
+        <h5 class="card-title">Cake boutique</h5>
+        <p class="card-text">We bake joy for every moment of your life</p>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cake boutique</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location:  Seef mall Gare6  </p>
+<p>📞 Phone: +973  34040930</p>
+<p>📸 Instagram: <a href="https://www.instagram.com/cakeboutiquebh?igsh=MXI1amhxZ3FybXlnZA==">@cakeboutiquebh</a> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28630.962796498392!2d50.50091027431638!3d26.23340189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49a57a884a9505%3A0xe489ce4953aaf94b!2sCake%20Boutique!5e0!3m2!1sen!2sbh!4v1764600150997!5m2!1sen!2sbh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/cs2.jpg" class="card-img-top" alt="koko logo">
+      <div class="card-body">
+        <h5 class="card-title">Koko</h5>
+        <p class="card-text">We bring your cake ideas to life.</p>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Koko</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location:  Riffa, Bukowarah  </p>
+<p>📞 Phone: +973  35053812 </p>
+<p>📸 Instagram: <a href="https://www.instagram.com/kokocakesbh?igsh=MXA4Z293bm9iaTZrbw==">@kokocakesbh</a> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.966409572642!2d50.552143974868365!3d26.132638193179158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49adf0ca62ef93%3A0x2d547836c044c6fc!2sKoko%20Cakes%20%26%20Bakes!5e0!3m2!1sen!2sbh!4v1764600540459!5m2!1sen!2sbh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card">
+      <img src="images/cs3.jpg" class="card-img-top" alt="patchi logo">
+      <div class="card-body">
+        <h5 class="card-title">Patchi</h5>
+        <p class="card-text">Made to melt your heart</p>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Patchi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location:  City centre, Manama </p>
+<p>📞 Phone: +973  32248848 ,17000740 </p>
+<p>📸 Instagram: <a href="https://www.instagram.com/patchibahrain?igsh=MXF4aDdvc2h6c3dqYg==">@patchibahrain</a> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114523.27663636355!2d50.400850497265594!3d26.2339852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49a51022771dfd%3A0x84fdfcc386820578!2sPatchi%20Cafe%20City%20Center%20Bahrain!5e0!3m2!1sen!2sbh!4v1764600670884!5m2!1sen!2sbh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/cs4.jpg" class="card-img-top" alt="Jasmine logo">
+      <div class="card-body">
+        <h5 class="card-title">Jasmine</h5>
+        <p class="card-text">Baked with love, shared with joy
+</p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jasmine</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location:  online shop  </p>
+<p>📞 Phone: +973  36609950  </p>
+<p>📸 Instagram: <a href="https://www.instagram.com/jasmine__cake1?igsh=aTQyaTY5dTNrOHJi">@jasmine_cake1</a> </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card">
+      <img src="images/cs5.jpg" class="card-img-top" alt="vibes logo">
+      <div class="card-body">
+        <h5 class="card-title">vibes</h5>
+        <p class="card-text">vibes brownie,with you in every momemt</p>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-form" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">vibes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>📍 Location: Manama, Bahrain  </p>
+<p>📞 Phone: +973 3XXXXXXX  </p>
+<p>📸 Instagram: <a href="https://www.instagram.com/vibesdelices?igsh=MXM0cmt2bDcxczJtNg==" target="_blank">@vibesdelicesh</a> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114522.76248638875!2d50.400849982423765!3d26.23450717024398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49af21bfa2ca67%3A0x2748a50fba107fca!2sVibes%20Delices!5e0!3m2!1sen!2sbh!4v1764600784684!5m2!1sen!2sbh" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--End of chocolate and cake shops information-->
+ <br><br><br>
+<h4>
+<img src="images/cackkkkkkkkkkkkkkko-removebg-preview.png" alt="cake icon"> Top 3 stores
+</h4>
+
+<div class="reviews"><div class="row g-4  justify-content-center text-center">
+  <div class="col">
+  <div class="cardOne" >
+  <div class="card-body">
+    <img src="images/cs5Card.jpg" alt="vibes store logo">
+    <h3 class="card-title"> Vibes</h3>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="cardOne" >
+  <div class="card-body">
+    <img src="images/cs3Card.jpg" alt=" Patchi store logo">
+    <h3 class="card-title"> Patchi</h3>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="cardOne">
+  <div class="card-body">
+    <img src="images/cs4.Cardjpg.jpg" alt="Jasmine store logo">
+    <h3 class="card-title"> Jasmine</h3>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- The footer -->
+	<br><br><br>
+<footer class="footer">
+  <p>&copy 2025 Sweetment. All rights reserved.</p>
+  <a href="mailto:Sweetment@gamil.com">Sweetment@gamil.com</a>
+  <br>
+  <p>
+     <img class="icon1" src="images/phone-1.png" alt=" phone icon" >
+      +973 35372670</p>
+
+  
+</footer>
+<!-- End of the footer -->
+
+  </body>
+</html>

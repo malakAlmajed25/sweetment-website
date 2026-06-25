@@ -1,0 +1,283 @@
+
+/*css in the home page*/
+body{
+background-color: #F5EBEB; 
+
+}
+
+#navbarNav{
+	justify-content: center;
+}
+.nav-item{
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+.reg {
+  margin-left: 390%;
+  width: 70px;
+  height: 90px;
+}
+.logo{
+  width: 100px;
+  height: 90px;
+}
+.Sentences{
+  color: #867070;
+  text-align:center;
+}
+ .Sentences h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    .Sentences p {
+      font-size: 1.5rem;
+	margin: 20px 0 }
+#carouselExampleCaptions img {
+	height: 760px;
+	object-fit: cover;
+}
+
+.home-img {
+    width: 100%;         
+    height: auto;
+    max-height: 700px;          
+    display: block;        
+    padding: 20px 20px 20px 20px;  
+    border-radius: 8px;    
+    object-fit: cover;
+    
+}
+
+
+.form-registertaion { 
+    max-width: 380px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 0.5rem;
+   
+
+}
+
+.reviews .row {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: flex-start;
+  padding-left: 20PX;
+ 
+}
+
+.cardOne{
+  background-color: white;
+  transform-style: preserve-3d;
+  perspective: 500px;
+
+  box-shadow:0px 4px 8px rgba(0, 0, 0, 0.15) ;
+  width: 285px;
+  margin: auto;
+
+
+}
+.cardOne:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #ffe8ef;
+}
+
+#Home h1,h2{
+	text-align: center;
+}
+
+
+#highlights {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.highlight {
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 420px;
+}
+
+.highlight img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.highlight:hover img {
+    transform: scale(1.1);
+}
+
+.highlight h3 {
+    margin-top: 10px;
+    transition: 0.3s ease;
+    text-align: center;
+
+}
+
+.highlight:hover h3 {
+    color: #b28888;
+    transform: scale(1.05);
+}
+	
+
+.footer {
+      background: #D5B4B4;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+  
+    }
+
+
+.ourStory{
+	display: flex; 
+	padding:30px;
+	
+}
+#ourStoryP{
+  padding-left:30px; 
+	text-align:justify; 
+	
+}
+.ourStoryimge img {
+	max-width: 250px;    
+    width: auto;          
+    height: auto;         
+    padding: 20px 0 20px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+
+
+.MakingOf{
+  	margin:auto;
+	padding:30px;
+	
+}
+
+
+.MakingOf h1,h3{
+  margin:auto;
+	padding-left:30px;
+	text-align:justify;
+  	display: flex
+}
+
+.MakingOf p{
+margin:auto;
+	padding-left:30px;
+	text-align:justify;
+  
+}
+.MakingImg{
+      text-align: center;
+}
+    .MakingImg img{
+      height: auto;
+      max-width: 400px;
+      border-radius: 10px;
+       margin: auto;
+      
+}
+
+.filter-title {
+  color: #867070; 
+  font-weight: 600; 
+  letter-spacing: 0.5px; 
+}
+
+
+
+#ColorsImg{
+ width: 100%;
+ max-width: 700px;
+ height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+/* banner section styles */
+    .header {
+      background: url("images/flower2.jpg")fixed no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      height:400px;
+    }
+	
+	/* banner section styles */
+    .header2 {
+      background: url("images/cake.jpg")fixed no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      height:400px;
+    }
+/* banner section styles */
+    .header3 {
+      background: url("images/gifts-Banner.jpg")fixed no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      height:400px;
+    }
+
+.btn-form {
+    
+    background-color: #E4D0D0; 
+    border-color: #867070; 
+    color: #000000; 
+}
+
+.btn-form:hover {
+    background-color: #5d4a4a; 
+    border-color: #5d4a4a; 
+    color: #000000; 
+}
+
+#welcomeMessage {
+    
+    color: #000000; 
+    padding: 0 5px;
+    text-align: center;
+    background-color: #E4D0D0;
+}
+
+/* Titles */
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    color: #6e4f4f;
+}
+
+/* Paragraphs */
+p, label, input, .card-text, .card-title {
+    font-family: "Nunito", sans-serif;
+}
+
+/* Welcome headings */
+.welcome-text {
+    font-family: "Caveat", cursive;
+}
+
+/* Navbar font */
+.navbar-nav .nav-link {
+    font-family: "Nunito", sans-serif;  
+    font-size: 20px;
+    color: #fff !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E4D0D0 !important; 
+}
+
+

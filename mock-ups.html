@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel = "stylesheet" type="text/css" href="style.css" />
+    <title>Sweetment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600&family=Amatic+SC:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+     <script src="script.js"></script>
+
+  </head>
+  <body onload="displayWelcomeMessage()">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->	
+	<!-- Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #867070;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="logo.png" ></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home_page.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flowers_page.html">Flowers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Chocolate&Cake_page.html">Chocolate&Cake</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="Gifts_page.html">Gifts</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="mock-ups.html">Making of sweetment </a>
+        </li>
+		</li>
+		 <li class="nav-item">
+          <a class="nav-link" href="our-story.html">Our story</a>
+        </li> 
+        <a class="navbar-brand" href="home_page.html#register"><img class="reg" src="images/reg.png" alt="register logo" ></a>
+       
+	    
+         
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of navbar-->
+
+<h1 class="mb-3" id="welcomeMessage"></h1>
+
+<!--Macking of ...-->
+<div class="MakingOf">
+
+<h1>Making of SWEETMENT</h1>
+<br> <br> <br> 
+
+<h3>Initial Layout Experiments:</h3>
+<br>
+
+<p>During our first meeting, we started by discussing and suggesting ideas for the user interface, and we tried to create a mockup that could represent the closest visual idea of how our website might look. The purpose was to have a general guideline for the web structure.
+
+We decided to include a Navbar on all pages to make navigation easier for the user.
+And like most websites, ours needed a footer that contains contact information.
+</p>
+
+<br>
+<div class="MakingImg">
+<img src="images/Mockup1.jpg"/>
+<img src="images/Mockup2.jpg"/>
+<img src="images/Mockup3.jpg"/>
+</div>
+
+ <br> <br> 
+
+<h3>Design Justification</h3>
+<br>
+<ul>
+
+  <li>
+    Impact of Colors on Content<br><br>
+    We selected a soft pastel palette to create a calm, welcoming atmosphere suitable for gift-related content. 
+    Light backgrounds make images of flowers, cakes, and gifts stand out, while the accent colors (rose and plum) 
+    guide user attention to interactive elements such as buttons, navigation links, and category cards. 
+    The overall color scheme supports readability and visual hierarchy.
+  </li>
+
+  <br>
+
+  <li>
+    Impact of Layout and Structure<br><br>
+    The layout was designed to be simple and consistent across all pages. Each page displays a welcome message, 
+    a large representative image, descriptive text, and organized category/store cards. 
+    This repetition helps users quickly understand how to navigate the website and reduces cognitive load, 
+    making the site easier to use and reuse.
+  </li>
+
+  <br>
+
+  <li>
+    How the Site Encourages Users to Return<br><br>
+    The website encourages repeated use through its clean structure, easy navigation bar, personalized welcome message 
+    after registration, and clearly defined categories. The use of visually appealing product images and 
+    consistent page layout improves user familiarity and encourages further browsing.
+  </li>
+
+  <br>
+
+  <li>
+    Maintainability for Future Updates (HTML, CSS, JS, Bootstrap)<br><br>
+    To maximize maintainability, we structured the website using external CSS and JavaScript files, allowing 
+    future updates to be applied quickly across all pages. Bootstrap ensures responsiveness and reduces repetitive styling. 
+    Clear HTML structure with reusable components (navbar, footer, cards) makes it easy for developers to modify 
+    or expand the site in the future.
+  </li>
+
+</ul>
+
+<br>
+<h3>Home page</h3>
+
+<br>
+
+<p>When the user first opens the website, they will find a Register button in the Navbar that takes them to the registration form. After submitting their information, their name appears along with a Welcome message.
+
+Below the welcome message and next to the registration form, we added an image that represents the products offered by the website. Scrolling down, there are three cards for the three main categories. Clicking any of them redirects the user to the corresponding page.</p>
+<br>
+<div class="MakingImg">
+<img src="images/HomePage1.jpg"/>
+<img src="images/HomePage2.jpg"/>
+</div>
+
+<br> <br> 
+<h3>Flowers, Chocolate & Cake, and Gifts Pages</h3>
+
+<br>
+
+<p>We followed the same design structure across all three category pages. Each page includes a short phrase describing its purpose along with an image. Below the text and image, we added several store cards, each containing a button that shows the store’s details (name, location, and contact information). At the end of each page, we added a “Top 3 Stores” section.
+
+At first, we considered adding a filter feature, but eventually decided it wasn’t necessary.</p>
+<br>
+<div class="MakingImg">
+<img src="images/FlowerMockup.jpg" alt="Flowers mockup"/>
+<img src="images/CakeMockup.jpg" alt="Chocolate and Cake mockup"/>
+<img src="images/GiftsMockup.jpg" alt="Gifts mockup"/>
+</div>
+
+<br> <br> 
+<h3>Making of Sweetment</h3>
+
+<br>
+
+<p>The Making of page includes all the ideas and concepts behind the website — some that were applied and others that remained as drafts to help shape the final design.
+It includes a total of six pages, plus all the design details such as the color palette, images, and fonts used.</p>
+<br>
+<div id="ColorsImg" class="container text-center">
+  <img src="images/colors.jpg" class="img-fluid mx-auto d-block" alt="colors mockup">
+</div>
+
+<br> <br> 
+<h3>Our Story Page</h3>
+
+<br>
+
+<p>In this page, we explained how the idea started, what challenges we faced during the development process, and what new things we learned while working on the project.
+
+We also added a section titled “What we’re proud of & Fun Fact”, where we shared how we divided the work in a light and friendly tone.
+
+To make the page more lively, we added some pictures as well.</p>
+<br> <br> 
+<h3>Tools Used</h3>
+
+<br>
+
+<p>We used four main tools while building the website: HTML, CSS, JavaScript, and Bootstrap.<br>
+	•	HTML was used as the core structure for all the pages.<br>
+	•	CSS was used to style the pages, customize fonts, colors, layouts, and match the visual identity of the project.<br>
+	•	JavaScript was used in a simple and clear way to activate the registration process and display the personalized Welcome message after the user registers.<br>
+	•	Finally, Bootstrap helped us design the pages efficiently, ensuring consistency across different screen sizes without building everything from scratch.</p>
+
+</div>
+
+
+
+<!-- The footer -->
+	<br><br><br>
+<footer class="footer">
+  <p>&copy 2025 Sweetment. All rights reserved.</p>
+  <a href="mailto:Sweetment@gamil.com">Sweetment@gamil.com</a>
+  <br>
+  <p>
+     <img class="icon1" src="images/phone-1.png" alt="phone.png" >
+      +973 35372670</p>
+
+  
+</footer>
+<!-- End of the footer -->
+
+  </body>
+</html>
